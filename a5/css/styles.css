@@ -1,0 +1,252 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+main {
+    background-color:#fffefb;
+    padding: 1rem 2rem 3rem 2rem;
+    font-family: "IBM Plex Serif", "Georgia", serif;
+}
+
+header, footer {
+    background-image: url(/~17njyl/a4/img/cake-overlay.jpg);
+    color: #fffefb;
+    text-align: center;
+}
+
+header, footer, h1, h2, h3{
+    font-family: "Neucha", "Helvetica", sans-serif;
+    text-shadow: 0.0625rem 0.0625rem 0px rgba(0,0,0,0.25);
+}
+
+footer {
+    padding:2rem;
+    font-family: "IBM Plex Serif", "Georgia", serif;
+}
+
+img {
+    max-width:100%;
+}
+
+#logo {
+    border-radius: 50%;
+    margin-top: 2rem;
+    height: 9.375rem;
+    width: 9.375rem;
+}
+
+#heading {
+    padding: 1rem 0rem 1rem 0rem;
+    font-size: 2.5rem;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding-top: 1em;
+}
+
+h1 {
+    font-size:2rem;
+}
+
+h2 {
+    font-size:1.75rem;
+}
+
+h3 {
+    font-size:1.5rem;
+}
+
+
+.pages {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+.pages li a{
+    text-decoration: none;
+    color: #fffefb;
+    border-top: 0.0625rem solid #fffefb;
+    display:block;
+    padding: 1rem 0rem 1rem 0rem;
+    font-size: 1.375rem;
+}
+
+#spelt {
+    background-color: #ede2cd;
+    border: 0.0625rem solid #ede2cd;
+    border-radius: 0.5rem;
+    padding:1rem;
+    margin: 0rem 1rem 0rem 1rem;
+}
+
+#spelt span {
+    display: block;
+    text-align: right;
+}
+
+a {
+    color: #763523;
+}
+
+table {
+    border: 0.0625rem solid black;
+    border-collapse:collapse;
+}
+
+td, th {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    text-align: center;
+    border: 0.0625rem solid black;
+    border-collapse:collapse;
+}
+
+th {
+    background-color: #ede2cd;
+}
+
+.directions-image {
+    padding: 1rem 0rem 1rem 0rem;
+    max-height: 25rem;
+    display: block;
+}
+
+#vegan-header {
+    position: relative;
+}
+
+#vegan-popup {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    color: #fffefb;
+    background-color: black;
+    border-radius: 0.375rem;
+    width: 12.5rem;
+    padding: 1rem;
+}
+
+#vegan-header:hover #vegan-popup{
+    opacity: 1;
+    transition: 2s;
+}
+	
+.quantity-button{
+	color: #763523;	
+	font-size: 1em;
+	
+	display: inline-block;
+	margin: 16px 8px 0 0;	
+	padding: 8px 16px;
+	border-radius: 6px;
+    font-family: "Neucha", "Helvetica", sans-serif;
+}
+
+input[type=submit] {
+    color: #763523;	
+	font-size: 1em;
+	
+	display: inline-block;
+	padding: 8px 16px;
+	border-radius: 6px;
+    font-family: "Neucha", "Helvetica", sans-serif;
+}
+
+.disabled {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+form {
+    max-width: 64rem;
+}
+
+.input_container:last-child {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#submit {
+    margin: 1rem 0 1rem 0;
+}
+
+form label, #thank_you_message, .comment_name, .comment_date {
+    text-shadow: 0.0625rem 0.0625rem 0px rgba(0,0,0,0.25);   
+}
+
+form label{
+    min-width: 9.375rem;
+}
+
+#USER_COMMENT_FORM_NAME, #USER_COMMENT_FORM_TEXT {
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15);
+    font-family: "IBM Plex Serif", "Georgia", serif;
+    width:100%;
+}
+
+.comment {
+    background-color: #ede2cd;
+    border-radius: 0.375rem;
+    margin: 0 0 1rem 0;
+    padding: 1rem;
+}
+
+.comment_name {
+    margin: 0 0 0.25rem 0;
+}
+
+.comment_date {
+    margin: 0 0 0.5rem 0;
+}
+
+#comment_title {
+    margin: 0 0 0.5rem 0;
+}
+
+#form_title {
+    margin: 0 0 1rem 0;
+}
+
+#thank_you_message {
+    background-color: #ede2cd;
+    border-radius: 0.375rem;
+    padding: 1rem;
+}
+
+.input_container:first-child {
+    padding: 0 0 1rem 0;
+}
+
+.directions {
+	padding-left: 3.5em;
+	position: relative;
+}
+
+.directions li {
+	margin: 0 0 1.0em 0.5em;
+}
+
+.directions li.hidden {
+	position: absolute;
+	left: -9999em;
+}
+
+.directions li .hide-direction {
+	position: absolute;
+	left: 0;
+
+	font-size: 1em;
+	color: #763523;
+	background-color: #fffefb;
+	
+	border-radius: 50%;
+    font-family: "Neucha", "Helvetica", sans-serif;
+}
